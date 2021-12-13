@@ -1,0 +1,18 @@
+.default-button {
+  font-family: var(--font-family-b);
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.default-button {
+  background: transparent;
+  color: var(--color-akana-green);
+}
+
+.default-button:hover,
+.default-button:focus {
+  background: var(--color-akana-green);
+  color: var(--color-white);
+}
