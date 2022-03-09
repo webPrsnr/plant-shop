@@ -1,4 +1,5 @@
 .default-button {
+  padding: 8px 20px;
   font-family: var(--font-family-b);
   font-size: 14px;
   cursor: pointer;

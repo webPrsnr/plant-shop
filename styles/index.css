@@ -2,7 +2,7 @@
   --font-family-b: MontserB, sans-serif; /* 700 */
   --font-family-m: MontserM, sans-serif; /* 500 */
   --font-family-r: MontserR, sans-serif; /* 400 */
-  --font-family-m: MontserS, sans-serif; /* 600 */
+  --font-family-s: MontserS, sans-serif; /* 600 */
 
   --color-white: #ffffff;
   --color-akana-green: #156963;
@@ -13,4 +13,13 @@
 
 body {
   margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  margin-left: 56px;
+  margin-right: 56px;
 }
