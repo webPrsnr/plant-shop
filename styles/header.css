@@ -1,0 +1,48 @@
+/* header.css */
+.head__icons {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head__logo {
+  display: block;
+  min-height: 36px;
+  min-width: 36px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon/Group5.svg");
+}
+
+.head__sub-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head__search {
+  display: block;
+  min-height: 20px;
+  min-width: 20px;
+  margin-right: 40px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon/search\ 1.svg");
+}
+
+.head__cart {
+  display: block;
+  min-height: 20px;
+  min-width: 20px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-image: url("../images/icon/shopping-cart\ 1.svg");
+}
+
+.head__sign-in {
+  background-color: var(--color-akana-green);
+  color: var(--color-white);
+}
+
+.head__sign-up {
+  background-color: var(--color-white);
+}
