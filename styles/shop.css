@@ -1,0 +1,22 @@
+.shop {
+  padding-top: 81px;
+}
+
+.shop__inner {
+  display: flex;
+  background-color: #f3f4f6;
+  column-gap: 43px;
+}
+
+.shop__visit {
+  margin: 88px 43px 32px 97px;
+}
+
+.shop__title {
+  margin-bottom: 32px;
+  font-family: var(--font-family-b);
+  color: var(--color-kq-black);
+  font-size: 40px;
+  line-height: 56px;
+  max-width: 590px;
+}
