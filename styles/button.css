@@ -1,5 +1,5 @@
 .default-button {
-  padding: 8px 20px;
+  padding: 8px 32px;
   font-family: var(--font-family-b);
   font-size: 14px;
   cursor: pointer;
@@ -10,6 +10,11 @@
 .default-button {
   background: transparent;
   color: var(--color-akana-green);
+}
+
+.button-active {
+  background: var(--color-akana-green);
+  color: var(--color-white);
 }
 
 .default-button:hover,
