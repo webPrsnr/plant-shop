@@ -1,0 +1,32 @@
+.motivation {
+  padding-top: 80px;
+}
+
+.motivation__inner {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 84px;
+}
+
+.motivation__content-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.motivation__text-title {
+  font-family: var(--font-family-b);
+  font-size: 40px;
+  line-height: 56px;
+  color: var(--color-kq-black);
+  max-width: 512px;
+  margin-bottom: 16px;
+}
+
+.motivation__text-descr {
+  max-width: 507px;
+  font-family: var(--font-family-r);
+  color: var(--color-kq-black);
+  font-size: 16px;
+  line-height: 28px;
+}
