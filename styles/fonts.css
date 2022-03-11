@@ -17,3 +17,18 @@
   font-family: MontserS;
   src: url("../fonts/monteserrat/Montserrat-SemiBold.ttf");
 }
+
+@font-face {
+  font-family: PoppinsM;
+  src: url("../fonts/poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: WorkSansM;
+  src: url("../fonts/worksans/WorkSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: WorkSansR;
+  src: url("../fonts/worksans/WorkSans-Regular.ttf");
+}

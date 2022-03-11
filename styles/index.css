@@ -1,8 +1,19 @@
 :root {
+  /* MONTSER */
+
   --font-family-b: MontserB, sans-serif; /* 700 */
   --font-family-m: MontserM, sans-serif; /* 500 */
   --font-family-r: MontserR, sans-serif; /* 400 */
   --font-family-s: MontserS, sans-serif; /* 600 */
+
+  /* POPPINS */
+
+  --font-family-p: PoppinsM, sans-serif;
+
+  /* WORKSANS */
+
+  --font-family-wr: WorkSansR, sans-serif; /* 400 */
+  --font-family-wm: WorkSansM, sans-serif; /* 500 */
 
   --color-white: #ffffff;
   --color-akana-green: #156963;
@@ -20,7 +31,9 @@ p {
   margin: 0;
 }
 h1,
-h2 {
+h2,
+h3,
+h4 {
   margin: 0;
 }
 
