@@ -1,0 +1,78 @@
+.advantages {
+  padding-top: 64px;
+}
+
+.advantages__inner {
+  display: flex;
+  justify-content: center;
+  column-gap: 32px;
+  box-sizing: border-box;
+}
+
+.advantage {
+  position: relative;
+  border: 1px solid #e0e0e0;
+  padding-top: 22px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.advantage__title {
+  margin-left: 64px;
+  max-width: 90px;
+  font-family: var(--font-family-b);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-akana-green);
+}
+.advatage__descr {
+  margin-top: 16px;
+  font-family: var(--font-family-r);
+  font-size: 10px;
+  line-height: 16px;
+  text-align: justify;
+}
+
+.advantage__title--delivery::before {
+  position: absolute;
+  left: 16px;
+  content: "";
+  min-width: 48px;
+  min-height: 48px;
+  display: block;
+  background-image: url("../images/icon/fast.svg");
+  background-repeat: no-repeat;
+}
+
+.advantage__title--service::before {
+  position: absolute;
+  left: 16px;
+  content: "";
+  min-width: 48px;
+  min-height: 48px;
+  display: block;
+  background-image: url("../images/icon/headphones.svg");
+  background-repeat: no-repeat;
+}
+
+.advantage__title--plants::before {
+  position: absolute;
+  left: 16px;
+  content: "";
+  min-width: 48px;
+  min-height: 48px;
+  display: block;
+  background-image: url("../images/icon/plant.svg");
+  background-repeat: no-repeat;
+}
+
+.advantage__title--price::before {
+  position: absolute;
+  left: 16px;
+  content: "";
+  min-width: 48px;
+  min-height: 48px;
+  display: block;
+  background-image: url("../images/icon/dollar-symbol.svg");
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,71 @@
+.featured {
+  padding-top: 83px;
+}
+
+.featured__title-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured__title {
+  font-family: var(--font-family-m);
+  color: #000;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.featured__button {
+  position: relative;
+  padding: 8px 36px 12px 8px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  background: transparent;
+}
+
+.featured__button::after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/icon/arrow.svg");
+  height: 5px;
+  width: 8px;
+  background-repeat: no-repeat;
+  right: 15px;
+  top: 14px;
+}
+
+hr {
+  border: 1px solid #e0e0e0;
+}
+
+.featured__inner {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.featured__plant {
+  text-decoration: none;
+}
+
+.plant__img {
+  background-color: #f3f4f6;
+}
+
+.plant__name {
+  margin-top: 16px;
+  text-align: center;
+  font-family: var(--font-family-r);
+  font-size: 16px;
+  color: var(--color-black);
+  line-height: 19px;
+}
+
+.plant__price {
+  margin-top: 8px;
+  text-align: center;
+  font-family: var(--font-family-s);
+  color: var(--color-black);
+  font-size: 16px;
+  line-height: 19px;
+}
