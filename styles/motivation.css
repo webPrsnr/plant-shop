@@ -4,11 +4,10 @@
 
 .motivation__inner {
   display: flex;
-  justify-content: space-between;
-  column-gap: 84px;
 }
 
 .motivation__content-area {
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -19,14 +18,23 @@
   font-size: 40px;
   line-height: 56px;
   color: var(--color-kq-black);
-  max-width: 512px;
+  width: 70%;
   margin-bottom: 16px;
 }
 
 .motivation__text-descr {
-  max-width: 507px;
+  width: 70%;
   font-family: var(--font-family-r);
   color: var(--color-kq-black);
   font-size: 16px;
   line-height: 28px;
+}
+
+.motivation__text-img > img {
+  width: 80%;
+}
+
+.motivation__img-area > img {
+  width: 100%;
+  height: 100%;
 }

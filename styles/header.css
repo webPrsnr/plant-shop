@@ -1,17 +1,22 @@
 /* header.css */
+.head__container-outer {
+  position: absolute;
+  width: 100%;
+}
+.head__container-inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .head__icons {
   padding-top: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.head__logo {
-  display: block;
-  min-height: 36px;
-  min-width: 36px;
-  background-repeat: no-repeat;
-  background-image: url("../images/icon/Group5.svg");
+.head__logo-img {
+  width: 100%;
+  height: auto;
 }
 
 .head__sub-icons {

@@ -37,7 +37,11 @@ h4 {
   margin: 0;
 }
 
-.container {
-  margin-left: 56px;
-  margin-right: 56px;
+.container__inner {
+  max-width: 1140px;
 }
+
+/* .container__outer {
+  padding-right: 20px;
+  padding-left: 20px;
+} */

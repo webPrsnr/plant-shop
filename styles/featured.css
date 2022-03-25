@@ -50,6 +50,7 @@ hr {
 
 .plant__img {
   background-color: #f3f4f6;
+  width: 100%;
 }
 
 .plant__name {
